@@ -40,8 +40,8 @@ public class LineageSettingsActivity extends BaseSetupWizardActivity {
         mSetupWizardApp = (SetupWizardApp) getApplication();
         setNextText(R.string.next);
 
-        String os_name = getString(R.string.os_name);
-        String privacyPolicy = getString(R.string.services_pp_explanation, os_name);
+        String upstream_os_name = getString(R.string.upstream_os_name);
+        String privacyPolicy = getString(R.string.services_pp_explanation, upstream_os_name);
         String privacyPolicyUri = getString(R.string.services_privacy_policy_uri);
         String policySummary = getString(R.string.services_find_privacy_policy, privacyPolicyUri);
         String servicesFullDescription = getString(R.string.services_full_description,
